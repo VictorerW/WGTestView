@@ -15,6 +15,7 @@
 		FCEF2E9A1E0B78FE00FC9F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF2E981E0B78FE00FC9F12 /* LaunchScreen.storyboard */; };
 		FCEF2EA51E0B78FF00FC9F12 /* WGTestViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2EA41E0B78FF00FC9F12 /* WGTestViewTests.m */; };
 		FCEF2EB01E0B78FF00FC9F12 /* WGTestViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2EAF1E0B78FF00FC9F12 /* WGTestViewUITests.m */; };
+		FCEF2EC01E0B793600FC9F12 /* WGTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2EBF1E0B793600FC9F12 /* WGTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FCEF2EAB1E0B78FF00FC9F12 /* WGTestViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGTestViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF2EAF1E0B78FF00FC9F12 /* WGTestViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGTestViewUITests.m; sourceTree = "<group>"; };
 		FCEF2EB11E0B78FF00FC9F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEF2EBE1E0B793600FC9F12 /* WGTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTestView.h; sourceTree = "<group>"; };
+		FCEF2EBF1E0B793600FC9F12 /* WGTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		FCEF2E891E0B78FE00FC9F12 /* WGTestView */ = {
 			isa = PBXGroup;
 			children = (
+				FCEF2EBD1E0B792100FC9F12 /* WGTestView */,
 				FCEF2E8D1E0B78FE00FC9F12 /* AppDelegate.h */,
 				FCEF2E8E1E0B78FE00FC9F12 /* AppDelegate.m */,
 				FCEF2E901E0B78FE00FC9F12 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				FCEF2EB11E0B78FF00FC9F12 /* Info.plist */,
 			);
 			path = WGTestViewUITests;
+			sourceTree = "<group>";
+		};
+		FCEF2EBD1E0B792100FC9F12 /* WGTestView */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF2EBE1E0B793600FC9F12 /* WGTestView.h */,
+				FCEF2EBF1E0B793600FC9F12 /* WGTestView.m */,
+			);
+			path = WGTestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEF2EC01E0B793600FC9F12 /* WGTestView.m in Sources */,
 				FCEF2E921E0B78FE00FC9F12 /* ViewController.m in Sources */,
 				FCEF2E8F1E0B78FE00FC9F12 /* AppDelegate.m in Sources */,
 				FCEF2E8C1E0B78FE00FC9F12 /* main.m in Sources */,
